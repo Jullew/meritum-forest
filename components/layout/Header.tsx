@@ -32,7 +32,7 @@ function Header({}: Props) {
         <div className="px-10 ">
           <ul className="flex gap-10 text-sm uppercase font-medium">
             {NAVBAR_LINKS.map((item) => (
-              <li>
+              <li key={item.key}>
                 <Navbar key={item.key} item={item} />
               </li>
             ))}
