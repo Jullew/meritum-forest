@@ -16,13 +16,13 @@ function Hero({}: Props) {
         </div>
         <div className="mx-auto container">
           <div className="w-[50%] flex flex-col h-[100vh] z-10 gap-2 text-white justify-center">
-            <h1 className="text-[110px] leading-[120px]  font-barlow">
-              WYCINKA DRZEW I KRZEWÓW, RODZINNA FIRMA
+            <h1 className="text-[115px] leading-[120px]  font-barlow">
+              PIELĘGNACJA DRZEW, KRZEWÓW I OGRODÓW
             </h1>
             <div className="h-[2px] w-1/5 bg-amber-600 my-4"></div>
             <h2 className="font-normal w-2/3 text-xl my-4">
               Meritum Forest, firma, której początki sięgają 2015 roku.
-              Specjalizujemy się w wycince oraz pielęgnacji drzew i krzewów.{" "}
+              Specjalizujemy się w pielęgnacji drzew, krzewów i ogrodów.{" "}
             </h2>
             <div className="flex justify-center gap-4 pt-10 items-center">
               <Link href="tel:+48793023649">
