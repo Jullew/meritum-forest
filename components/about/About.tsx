@@ -10,6 +10,7 @@ import {
 } from "react-icons/gi";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { motion } from "framer-motion";
+import { fadeIn, slideIn } from "@/lib/motion";
 
 type Props = {};
 
@@ -23,7 +24,7 @@ function About({}: Props) {
         <h2 className="uppercase font-barlow w-1/2 text-6xl my-2">
           NASZE ZAANGAŻOWANIE W PRACĘ Z DRZEWAMI I KRZEWAMI
         </h2>
-        <motion.div className="my-10 flex flex-wrap">
+        <div className="mt-10 flex flex-wrap">
           <div className="w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiPulleyHook size={50} />
             <h2 className="text-xl font-medium h-[10%]">
@@ -63,6 +64,8 @@ function About({}: Props) {
               <HiArrowLongRight size={35} />
             </div>
           </div>
+        </div>
+        <div className="flex flex-wrap mt-0">
           <div className="w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiGrass size={50} />
             <h2 className="text-xl font-medium h-[10%]">
@@ -98,7 +101,7 @@ function About({}: Props) {
               <HiArrowLongRight size={35} />
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );
