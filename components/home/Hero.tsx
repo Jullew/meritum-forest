@@ -3,6 +3,7 @@ import las from "@/public/hero/las.jpg";
 import Image from "next/image";
 import bg from "@/public/hero/bg.svg";
 import { BsTelephoneOutboundFill, BsCardList } from "react-icons/bs";
+import Link from "next/link";
 type Props = {};
 
 function Hero({}: Props) {
@@ -24,9 +25,11 @@ function Hero({}: Props) {
               Specjalizujemy się w wycince oraz pielęgnacji drzew i krzewów.{" "}
             </h2>
             <div className="flex justify-center gap-4 pt-10 items-center">
-              <button className="bg-[#00a680] hover:bg-green-300 hover:text-gray-700 ease-out transition-all flex justify-center items-center gap-2 tracking-widest p-4">
-                <BsTelephoneOutboundFill /> ZADZWOŃ
-              </button>
+              <Link href="tel:+48793023649">
+                <button className="bg-[#00a680] hover:bg-green-300 hover:text-gray-700 ease-out transition-all flex justify-center items-center gap-2 tracking-widest p-4">
+                  <BsTelephoneOutboundFill /> ZADZWOŃ
+                </button>
+              </Link>
               <button className="bg-[#f17444] hover:bg-orange-300 hover:text-gray-700 ease-out transition-all flex justify-center items-center gap-2 tracking-widest p-4">
                 <BsCardList /> POZNAJ OFERTĘ
               </button>
