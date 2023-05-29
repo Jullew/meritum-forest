@@ -8,7 +8,7 @@ import {
   GiHighTide,
   GiFruitTree,
 } from "react-icons/gi";
-import { HiArrowLongRight } from "react-icons/hi2";
+import HiArrowLongRight from "react-icons/hi2";
 import { motion } from "framer-motion";
 import { fadeIn, slideIn } from "@/lib/motion";
 
