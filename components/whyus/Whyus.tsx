@@ -23,20 +23,20 @@ function Whyus({}: Props) {
               piękny ogród poprawia samopoczucie.
             </h2>
             <div className="h-[1px] w-1/5 mx-auto lg:mx-0 my-6 bg-g"></div>
-            <div className="flex flex-wrap gap-6 justify-around">
-              <div className="flex flex-col gap-4">
-                <div className="font-barlow text-g text-6xl">
-                  <Counter value={8} />
-                </div>
-                <div className="">Lat w branży</div>
-              </div>
-              <div className="flex flex-col gap-4">
+            <div className="flex flex-wrap md:flex-nowrap gap-6 md:justify-around w-1/1">
+              <div className="flex w-[100%] md:w-1/3 flex-col gap-4">
                 <div className="font-barlow text-g text-6xl">
                   <Counter value={10} />K
                 </div>
                 <div className="">Zadowolonych klientów</div>
               </div>
-              <div className="flex flex-col gap-4">
+              <div className="flex w-[100%] md:w-1/3 flex-col gap-4">
+                <div className="font-barlow text-g text-6xl">
+                  <Counter value={8} />
+                </div>
+                <div className="">Lat w branży</div>
+              </div>
+              <div className="flex w-[100%] md:w-1/3  flex-col gap-4">
                 <div className="font-barlow text-g text-6xl">
                   <Counter value={10} />
                   KM<sup>2</sup>
