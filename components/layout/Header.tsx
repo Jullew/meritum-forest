@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { NAVBAR_LINKS } from "@/lib/consts/navigation";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 type Props = { item: any };
 
@@ -27,9 +28,14 @@ function Header({}: Props) {
         navbar ? "bg-green-950/80" : ""
       } px-10 w-[100%] backdrop-blur-sm fixed z-10 text-white`}
     >
-      <div className="border-b flex justify-between w-full  h-[80px] items-center">
-        <div className="font-barlow text-5xl px-10">MERITUM FOREST</div>
-        <div className="px-10 ">
+      <div className="border-b flex justify-between w-full  h-[60px] lg:h-[80px] items-center">
+        <div className="font-barlow text-4xl text-center w-1/1 lg:text-5xl px-4 lg:px-10 ">
+          <Link href="#top">MERITUM FOREST</Link>
+        </div>
+        <div className="xl:px-10 xl:block hidden">
+          {/* <div className="block xl:hidden">
+            <GiHamburgerMenu size={30} />
+          </div> */}
           <ul className="hidden xl:flex gap-10 text-sm uppercase font-medium">
             {NAVBAR_LINKS.map((item) => (
               <li key={item.key}>

@@ -7,7 +7,7 @@ type Props = {};
 
 function Whyus({}: Props) {
   return (
-    <section id="whyus" className="scroll-smooth">
+    <section id="whyus" className="scroll-smooth pt-10">
       <div className="container my-20 mx-auto">
         <div className="flex flex-wrap">
           <div className="w-1/3 bg-green-500 relative">

@@ -7,7 +7,7 @@ type Props = {};
 
 function Contact({}: Props) {
   return (
-    <section id="contact" className="scroll-smooth">
+    <section id="contact" className="scroll-smooth pt-20">
       <div className="mx-auto px-4 container">
         <Heading
           title="Zadzwoń lub napisz"

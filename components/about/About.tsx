@@ -16,7 +16,7 @@ type Props = {};
 
 function About({}: Props) {
   return (
-    <section id="services" className="scroll-smooth">
+    <section id="services" className="scroll-smooth pt-8">
       <div className="container mx-auto mt-20 px-4">
         <div className="flex flex-col">
           <h3 className="uppercase font-Jost  font-semibold tracking-wider text-lg my-2 text-g">
