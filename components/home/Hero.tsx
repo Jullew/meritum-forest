@@ -11,10 +11,9 @@ function Hero({}: Props) {
     <section id="top" className="scroll-smooth">
       <div className="bg-gradient-to-br from-[#3b5b4c] to-[#0e392a]">
         <div className="bg-heroBG bg-opacity-50 w-[100%] h-[100%] ">
-          <div className="w-1/2 hidden lg:block absolute right-0 h-[100vh] overflow-hidden">
-            <div className="absolute w-full h-full bg-black/100">
-              <Image src={las} alt="las" fill style={{ color: "black" }} />
-            </div>
+          <div className="w-1/2 hidden lg:block absolute bg-black/80 right-0 h-[100vh] overflow-hidden">
+            <div className="absolute w-full h-full z-10 bg-black/40"></div>
+            <Image src={las} alt="las" fill />
           </div>
           <div className="mx-auto container px-4">
             <div className="w-[100%] lg:w-[50%] text-center lg:text-left flex flex-col h-[100vh] z-10 gap-2 text-white justify-center">

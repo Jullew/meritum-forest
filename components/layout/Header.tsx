@@ -26,7 +26,7 @@ function Header({}: Props) {
     <div
       className={`${
         navbar ? "bg-green-950/80" : ""
-      } px-10 w-[100%] backdrop-blur-sm fixed z-10 text-white`}
+      } px-10 w-[100%] backdrop-blur-sm fixed z-50 text-white`}
     >
       <div className="border-b flex justify-between w-full  h-[60px] lg:h-[80px] items-center">
         <div className="font-barlow text-4xl text-center w-1/1 lg:text-5xl px-4 lg:px-10 ">
@@ -36,7 +36,7 @@ function Header({}: Props) {
           {/* <div className="block xl:hidden">
             <GiHamburgerMenu size={30} />
           </div> */}
-          <ul className="hidden xl:flex gap-10 text-sm uppercase font-medium">
+          <ul className="hidden  xl:flex gap-10 text-sm uppercase font-medium">
             {NAVBAR_LINKS.map((item) => (
               <li key={item.key}>
                 <Navbar key={item.key} item={item} />
