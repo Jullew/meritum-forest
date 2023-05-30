@@ -17,7 +17,7 @@ function Hero({}: Props) {
           </div>
           <div className="mx-auto container px-4">
             <div className="w-[100%] lg:w-[50%] text-center lg:text-left flex flex-col h-[100vh] z-10 gap-2 text-white justify-center">
-              <h1 className="text-[75px] md:text-[100px] xl:text-[120px] leading-[90px] md:leading-[120px]  font-barlow">
+              <h1 className="text-[70px] md:text-[100px] xl:text-[120px] leading-[90px] md:leading-[120px]  font-barlow">
                 PIELĘGNACJA DRZEW, KRZEWÓW I OGRODÓW
               </h1>
               <div className="h-[2px] w-1/5 lg:mx-0 mx-auto bg-amber-600 my-4"></div>
