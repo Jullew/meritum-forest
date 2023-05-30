@@ -28,7 +28,10 @@ function Header({}: Props) {
         navbar ? "bg-green-950/80" : ""
       } px-10 w-[100%] backdrop-blur-sm fixed z-50 text-white`}
     >
-      <div className="border-b flex justify-between w-full  h-[60px] lg:h-[80px] items-center">
+      <div className="font-barlow border-b h-[60px] flex justify-center items-center xl:hidden text-4xl text-center w-1/1 lg:text-5xl px-4 lg:px-10 ">
+        <Link href="#top">MERITUM FOREST</Link>
+      </div>
+      <div className="border-b xl:flex hidden justify-between w-full  h-[60px] lg:h-[80px] items-center">
         <div className="font-barlow text-4xl text-center w-1/1 lg:text-5xl px-4 lg:px-10 ">
           <Link href="#top">MERITUM FOREST</Link>
         </div>
