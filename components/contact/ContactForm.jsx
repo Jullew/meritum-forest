@@ -76,14 +76,16 @@ const ContactForm = () => {
             </label>
           </div>
         </div>
-        <div className="flex flex-col gap-2">
-          <label className="font-semibold">Wiadomość</label>
+
+        <label className="font-semibold flex flex-col gap-2">
+          Wiadomość
           <textarea
             name="message"
             className="border w-[100%] mb-6 focus:outline-none h-[100px] p-[15px] dark:bg-gray-800 focus:border-green-800"
             required
           />
-        </div>
+        </label>
+
         <button
           type="submit"
           className={`${
