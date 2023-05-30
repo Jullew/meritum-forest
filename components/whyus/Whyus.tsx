@@ -13,7 +13,7 @@ function Whyus({}: Props) {
           <div className="w-1/3 bg-green-500 relative">
             <Image src={forestRoad} alt="Droga przez las" fill />
           </div>
-          <div className="w-1/1 lg:w-2/3 p-20 text-center lg:text-left flex flex-col bg-green-950 text-white">
+          <div className="w-1/1 lg:w-2/3 px-4 py-10 lg:p-20 text-center lg:text-left flex flex-col bg-green-950 text-white">
             <h3 className="uppercase font-Jost  font-semibold tracking-wider text-lg my-2 text-g">
               Dlaczego my?
             </h3>
