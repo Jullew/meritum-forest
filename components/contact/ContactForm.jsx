@@ -44,35 +44,36 @@ const ContactForm = () => {
         onSubmit={sendEmail}
       >
         <div className="flex flex-col">
-          <div className="flex-col flex flex-grow">
-            <label className="font-semibold">Imię</label>
+          <label className="font-semibold flex flex-col gap-2">
+            Imię
             <input
               className="border mb-6 focus:outline-none h-[50px]  dark:bg-gray-800 focus:border-green-800"
               type="text"
               name="name"
               required
             />
-          </div>
+          </label>
 
           <div className="flex justify-between">
-            <div className="flex gap-2  flex-col w-[47%]">
-              <label className="font-semibold">Telefon</label>
+            <label className="font-semibold flex gap-2  flex-col w-[47%]">
+              Telefon
               <input
                 type="phone"
                 name="phone"
                 className="border mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
                 required
               />
-            </div>
-            <div className="flex gap-2  flex-col w-[47%]">
-              <label className="font-semibold">Email</label>
+            </label>
+
+            <label className="font-semibold flex gap-2  flex-col w-[47%]">
+              Email
               <input
                 type="email"
                 name="email"
                 className="border mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
                 required
               />
-            </div>
+            </label>
           </div>
         </div>
         <div className="flex flex-col gap-2">
