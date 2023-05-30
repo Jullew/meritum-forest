@@ -298,7 +298,7 @@ body {
       --vspace-3: calc(0.5 * var(--space) * 1rem);
   }
   
-  html {font-size: 16px;}
+  html {font-size: 16px;  scroll-behavior: smooth;}
   
   body {
       font-size: 1em;
