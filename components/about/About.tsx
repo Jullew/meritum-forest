@@ -16,16 +16,16 @@ type Props = {};
 
 function About({}: Props) {
   return (
-    <div className="container px-20 mx-auto mt-20">
+    <div className="container mx-auto mt-20">
       <div className="flex flex-col">
         <h3 className="uppercase font-Jost  font-semibold tracking-wider text-lg my-2 text-g">
           Co robimy?
         </h3>
-        <h2 className="uppercase font-barlow w-1/2 text-6xl my-2">
+        <h2 className="uppercase font-barlow w-1/1 md:w-1/2 text-4xl md:text-6xl my-2">
           NASZE ZAANGAŻOWANIE W PRACĘ Z DRZEWAMI I KRZEWAMI
         </h2>
         <div className="mt-10 flex flex-wrap">
-          <div className="w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
+          <div className="w-1/1 md:w-1/1 md:w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiPulleyHook size={50} />
             <h2 className="text-xl font-medium h-[10%]">
               Specjalistyczne usługi alpinistyczne (arborystyka)
@@ -39,7 +39,7 @@ function About({}: Props) {
               <HiArrowLongRight size={35} />
             </div>
           </div>
-          <div className="w-1/3 border p-4 group  relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
+          <div className="w-1/1 md:w-1/1 md:w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiHighGrass size={50} />
             <h2 className="text-xl font-medium h-[10%]">Koszenie trawników</h2>
             <p>
@@ -51,7 +51,7 @@ function About({}: Props) {
               <HiArrowLongRight size={35} />
             </div>
           </div>
-          <div className="w-1/3 border p-4 relative group hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
+          <div className="w-1/1 md:w-1/3 border p-4 relative group hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiHighTide size={50} />
             <h2 className="text-xl font-medium h-[10%]">
               Wycinanie drzew pod liniami energetycznymi
@@ -66,7 +66,7 @@ function About({}: Props) {
           </div>
         </div>
         <div className="flex flex-wrap mt-0">
-          <div className="w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
+          <div className="w-1/1 md:w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiGrass size={50} />
             <h2 className="text-xl font-medium h-[10%]">
               Strzyżenie żywopłotów
@@ -79,7 +79,7 @@ function About({}: Props) {
               <HiArrowLongRight size={35} />
             </div>
           </div>
-          <div className="w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
+          <div className="w-1/1 md:w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiCircularSaw size={50} />
             <h2 className="text-xl font-medium h-[10%]">Wycinanie drzew</h2>
             <p>
@@ -90,7 +90,7 @@ function About({}: Props) {
               <HiArrowLongRight size={35} />
             </div>
           </div>
-          <div className="w-1/3 border p-4 relative group hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
+          <div className="w-1/1 md:w-1/3 border p-4 relative group hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
             <GiFruitTree size={50} />
             <h2 className="text-xl font-medium h-[10%]">Pielęgnacja drzew</h2>
             <p>

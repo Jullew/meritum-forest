@@ -10,17 +10,18 @@ function Hero({}: Props) {
   return (
     <div className="bg-gradient-to-br from-[#3b5b4c] to-[#0e392a]">
       <div className="bg-heroBG bg-opacity-50 w-[100%] h-[100%] ">
-        <div className="w-1/2 absolute right-0 h-[100vh] overflow-hidden">
-          <div className="absolute w-full h-full bg-black/30"></div>
-          <Image src={las} alt="las" />
+        <div className="w-1/2 hidden lg:block absolute right-0 h-[100vh] overflow-hidden">
+          <div className="absolute w-full h-full bg-black/100">
+            <Image src={las} alt="las" fill style={{ color: "black" }} />
+          </div>
         </div>
-        <div className="mx-auto container">
-          <div className="w-[50%] flex flex-col h-[100vh] z-10 gap-2 text-white justify-center">
-            <h1 className="text-[115px] leading-[120px]  font-barlow">
+        <div className="mx-auto container px-4">
+          <div className="w-[100%] lg:w-[50%] text-center lg:text-left flex flex-col h-[100vh] z-10 gap-2 text-white justify-center">
+            <h1 className="text-[80px] md:text-[100px] xl:text-[120px] leading-[90px] md:leading-[120px]  font-barlow">
               PIELĘGNACJA DRZEW, KRZEWÓW I OGRODÓW
             </h1>
-            <div className="h-[2px] w-1/5 bg-amber-600 my-4"></div>
-            <h2 className="font-normal w-2/3 text-xl my-4">
+            <div className="h-[2px] w-1/5 lg:mx-0 mx-auto bg-amber-600 my-4"></div>
+            <h2 className="font-normal w-1/1 lg:w-2/3 text-xl my-4">
               Meritum Forest, firma, której początki sięgają 2015 roku.
               Specjalizujemy się w pielęgnacji drzew, krzewów i ogrodów.{" "}
             </h2>

@@ -30,7 +30,7 @@ function Header({}: Props) {
       <div className="border-b flex justify-between w-full  h-[80px] items-center">
         <div className="font-barlow text-5xl px-10">MERITUM FOREST</div>
         <div className="px-10 ">
-          <ul className="flex gap-10 text-sm uppercase font-medium">
+          <ul className="hidden xl:flex gap-10 text-sm uppercase font-medium">
             {NAVBAR_LINKS.map((item) => (
               <li key={item.key}>
                 <Navbar key={item.key} item={item} />
