@@ -15,17 +15,17 @@ function Hero({}: Props) {
             <div className="absolute w-full h-full z-10 bg-black/30"></div>
             <Image src={las} alt="las" fill />
           </div>
-          <div className="mx-auto container px-4">
+          <div className="mx-auto container py-6">
             <div className="w-[100%] lg:w-[50%] text-center lg:text-left flex flex-col h-[100vh] z-10 gap-2 text-white justify-center">
-              <h1 className="text-[70px] md:text-[100px] xl:text-[120px] leading-[90px] md:leading-[120px]  font-barlow">
+              <h1 className="text-[50px] my-2 md:text-[100px] xl:text-[120px] leading-[60px] md:leading-[120px]  font-barlow">
                 PIELĘGNACJA DRZEW, KRZEWÓW I OGRODÓW
               </h1>
-              <div className="h-[2px] w-1/5 lg:mx-0 mx-auto bg-amber-600 my-4"></div>
+              <div className="h-[2px] my-8 w-1/5 lg:mx-0 mx-auto bg-amber-600"></div>
               <h2 className="font-normal w-1/1 lg:w-2/3 text-xl my-4">
                 Meritum Forest, firma, której początki sięgają 2015 roku.
                 Specjalizujemy się w pielęgnacji drzew, krzewów i ogrodów.{" "}
               </h2>
-              <div className="flex justify-center gap-4 pt-10 items-center">
+              <div className="flex text-sm md:text-regular justify-center gap-4 pt-10 items-center">
                 <Link href="tel:+48793023649">
                   <button className="bg-[#00a680] hover:bg-green-300 hover:text-gray-700 ease-out transition-all flex justify-center items-center gap-2 tracking-widest p-4">
                     <BsTelephoneOutboundFill /> ZADZWOŃ
