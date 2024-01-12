@@ -105,12 +105,12 @@ const ContactForm = () => {
         </button>
       </form>
 
-      <div className={success ? "inline" : "hidden"}>
-        <div className="alert alert-success shadow-lg">
-          <div>
+      <div className={success ? "inline lg:w-1/2" : "hidden"}>
+        <div className="alert alert-success bg-green-950 p-4 rounded-2xl border-green-800 shadow-lg">
+          <div className="flex justify-center items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="stroke-current flex-shrink-0 h-6 w-6"
+              className="text-green-400 stroke-current flex-shrink-0 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
             >
@@ -121,13 +121,15 @@ const ContactForm = () => {
                 d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-            <span>Wiadomość została wysłana pomyślnie!</span>
+            <span className="text-green-400">
+              Wiadomość została wysłana pomyślnie!
+            </span>
           </div>
         </div>
       </div>
 
-      <div className={error ? "inline bg-orange-200" : "hidden"}>
-        <div className="alert alert-error shadow-lg">
+      <div className={error ? "inline" : "hidden"}>
+        <div className="alert alert-error bg-red-950 p-4 rounded-2xl border-red-800 shadow-lg">
           <div className="flex justify-center items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
