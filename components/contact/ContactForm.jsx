@@ -16,7 +16,7 @@ const ContactForm = () => {
     setSending(true);
     emailjs
       .sendForm(
-        "service_o255y9d",
+        "service_a3s1kfg",
         "template_tan1auw",
         form.current,
         "zdhSDv_BwJ3ommWpM"
@@ -91,7 +91,7 @@ const ContactForm = () => {
           className={`${
             sending ? "hidden" : "block"
             // } p-2 fo-medium flex flex-row   justify-center items-center gap-2  btn-submit text-[#1f2937]  rounded-full my-6`}
-          } bg-green-800 hover:bg-green-400 text-white dark:text-white border  gap-2 group hover:translate-y-1 transition-all text-white hover:text-[#323232]  items-center justify-center p-2 cursor-pointer flex flex-row `}
+          } bg-green-800 hover:bg-green-400 text-white dark:text-white border  gap-2 group hover:translate-y-1 transition-all hover:text-[#323232]  items-center justify-center p-2 cursor-pointer flex flex-row `}
         >
           Wyślij{" "}
           <BsSendFill className=" dark:text-white text-white group-hover:text-[#323232] " />
@@ -99,8 +99,10 @@ const ContactForm = () => {
         <button
           className={`${
             sending ? "block" : "hidden"
-          } btn loading p-2 fo-medium flex flex-row  justify-center items-center gap-2  btn-submit w-1/4 rounded-full my-6`}
-        ></button>
+          }  bg-green-900 text-white dark:text-white border  gap-2 group   items-center justify-center p-2 flex flex-row cursor-not-allowed`}
+        >
+          Wysyłanie...
+        </button>
       </form>
 
       <div className={success ? "inline" : "hidden"}>
@@ -124,12 +126,12 @@ const ContactForm = () => {
         </div>
       </div>
 
-      <div className={error ? "inline" : "hidden"}>
+      <div className={error ? "inline bg-orange-200" : "hidden"}>
         <div className="alert alert-error shadow-lg">
-          <div>
+          <div className="flex justify-center items-center gap-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="stroke-current flex-shrink-0 h-6 w-6"
+              className="stroke-current text-red-400 flex-shrink-0 h-6 w-6"
               fill="none"
               viewBox="0 0 24 24"
             >
@@ -140,7 +142,7 @@ const ContactForm = () => {
                 d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"
               />
             </svg>
-            <span>
+            <span className="dark:text-red-400">
               Ups! Coś poszło nie tak, odśwież stronę i spróbuj ponownie!
             </span>
           </div>
