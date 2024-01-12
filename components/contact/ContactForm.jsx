@@ -47,7 +47,7 @@ const ContactForm = () => {
           <label className="font-semibold flex flex-col gap-2">
             Imię
             <input
-              className="border font-normal mb-6 focus:outline-none h-[50px]  dark:bg-gray-800 focus:border-green-800"
+              className="border font-normal mb-6 focus:outline-none h-[50px]  dark:bg-gray-800 p-[15px] focus:border-green-800"
               type="text"
               name="name"
               required
@@ -60,7 +60,7 @@ const ContactForm = () => {
               <input
                 type="phone"
                 name="phone"
-                className="border font-normal mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
+                className="border font-normal mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800  focus:border-green-800"
                 required
               />
             </label>
@@ -70,7 +70,7 @@ const ContactForm = () => {
               <input
                 type="email"
                 name="email"
-                className="border font-normal mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
+                className="border font-normal mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 p-2 focus:border-green-800"
                 required
               />
             </label>
@@ -81,7 +81,7 @@ const ContactForm = () => {
           Wiadomość
           <textarea
             name="message"
-            className="border w-[100%] font-normal mb-6 focus:outline-none h-[100px] p-[15px] dark:bg-gray-800 focus:border-green-800"
+            className="border w-[100%] font-normal mb-6 focus:outline-none h-[100px] p-[15px] dark:bg-gray-800  focus:border-green-800"
             required
           />
         </label>
