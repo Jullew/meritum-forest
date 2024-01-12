@@ -2,14 +2,14 @@ import Header from "@/components/layout/Header";
 import "../globals.css";
 import { Inter } from "next/font/google";
 import Footer from "@/components/layout/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 // const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title:
-    "Meritum Forest - pielęgnacja drzew, krzewów i ogrodów oraz wycinka drzew.",
+  title: "Meritum Forest - wycinka drzew, pielęgnacja zieleni i ogrodów",
   description:
-    "Meritum Forest, firma, której początki sięgają 2015 roku. Specjalizujemy się w pielęgnacji drzew, krzewów i ogrodów oraz wycince drzew.",
+    "Specjalizujemy się w wycince drzew, pielęgnacji drzew, krzewów oraz ogrodów. Działamy w Myszkowie, Katowicach, Sosnowcu, Będzinie i całym województwie śląskim",
 };
 
 export default function RootLayout({
@@ -23,6 +23,7 @@ export default function RootLayout({
         <Header item />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
