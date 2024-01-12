@@ -22,10 +22,10 @@ function About({}: Props) {
           <h3 className="uppercase font-Jost  font-semibold tracking-wider text-lg my-2 text-g">
             Co robimy?
           </h3>
-          <h2 className="uppercase font-barlow w-1/1 xl:w-1/2 text-4xl md:text-6xl my-2">
+          <h2 className="uppercase font-barlow w-1/1 xl:w-1/2 text-4xl md:text-6xl my-2 dark:text-white">
             NASZE ZAANGAŻOWANIE W PRACĘ Z DRZEWAMI I KRZEWAMI
           </h2>
-          <div className="mt-10 flex flex-wrap">
+          <div className="mt-10 flex flex-wrap dark:text-gray-200">
             <div className="w-1/1 md:w-1/1 md:w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
               <GiPulleyHook size={50} />
               <h2 className="text-xl font-medium h-[10%]">
@@ -97,7 +97,7 @@ function About({}: Props) {
               </div> */}
             </div>
           </div>
-          <div className="flex flex-wrap mt-0">
+          <div className="flex flex-wrap mt-0 dark:text-gray-200">
             <div className="w-1/1 md:w-1/3 border p-4 group relative hover:bg-green-900 hover:text-white ease-linear transition-all border-gray-400 flex flex-col">
               <GiGrass size={50} />
               <h2 className="text-xl font-medium h-[10%]">

@@ -25,8 +25,8 @@ function Header({}: Props) {
   return (
     <div
       className={`${
-        navbar ? "bg-green-950/80" : ""
-      } px-10 w-[100%] backdrop-blur-sm fixed z-50 text-white`}
+        navbar ? "bg-green-950/90" : "bg-green-950/80"
+      } px-10 w-[100%]  backdrop-blur-sm fixed z-50 text-white`}
     >
       <div className="font-barlow border-b h-[60px] flex justify-center items-center xl:hidden text-4xl text-center w-1/1 lg:text-5xl px-4 lg:px-10 ">
         <Link href="#top">MERITUM FOREST</Link>

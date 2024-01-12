@@ -43,11 +43,11 @@ const ContactForm = () => {
         } mx-auto w-[90%] lg:w-1/2 lg:p-20`}
         onSubmit={sendEmail}
       >
-        <div className="flex flex-col">
+        <div className="flex dark:text-gray-200 flex-col">
           <label className="font-semibold flex flex-col gap-2">
             Imię
             <input
-              className="border mb-6 focus:outline-none h-[50px]  dark:bg-gray-800 focus:border-green-800"
+              className="border font-normal mb-6 focus:outline-none h-[50px]  dark:bg-gray-800 focus:border-green-800"
               type="text"
               name="name"
               required
@@ -60,7 +60,7 @@ const ContactForm = () => {
               <input
                 type="phone"
                 name="phone"
-                className="border mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
+                className="border font-normal mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
                 required
               />
             </label>
@@ -70,18 +70,18 @@ const ContactForm = () => {
               <input
                 type="email"
                 name="email"
-                className="border mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
+                className="border font-normal mb-6 focus:outline-none h-[50px] p-[15px] dark:bg-gray-800 focus:border-green-800"
                 required
               />
             </label>
           </div>
         </div>
 
-        <label className="font-semibold flex flex-col gap-2">
+        <label className="dark:text-gray-200 font-semibold flex flex-col gap-2">
           Wiadomość
           <textarea
             name="message"
-            className="border w-[100%] mb-6 focus:outline-none h-[100px] p-[15px] dark:bg-gray-800 focus:border-green-800"
+            className="border w-[100%] font-normal mb-6 focus:outline-none h-[100px] p-[15px] dark:bg-gray-800 focus:border-green-800"
             required
           />
         </label>

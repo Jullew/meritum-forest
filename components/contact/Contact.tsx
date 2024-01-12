@@ -21,7 +21,7 @@ function Contact({}: Props) {
             <h3 className="uppercase font-Jost  font-semibold tracking-wider text-sm my-2 text-g">
               NAPISZ DO NAS
             </h3>
-            <p>
+            <p className="dark:text-gray-200">
               Jeśli masz projekt, o którym chciałbyś porozmawiać,
               <br /> chętnie o nim przeczytamy{" "}
               <Link href="mailto: forest@meritumcenter.org.pl">
@@ -31,14 +31,14 @@ function Contact({}: Props) {
             <h3 className="uppercase font-Jost  font-semibold tracking-wider text-sm my-2 text-g">
               ZADZWOŃ DO NAS
             </h3>
-            <p>
+            <p className="dark:text-gray-200">
               <Link href="tel:+48793023649">793 023 649</Link>
             </p>
 
             <h3 className="uppercase font-Jost  font-semibold tracking-wider text-sm my-2 text-g">
               BIURO
             </h3>
-            <p>
+            <p className="dark:text-gray-200">
               ul. Paderewskiego 31
               <br />
               42-300 Myszków
