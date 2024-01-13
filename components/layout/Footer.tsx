@@ -15,11 +15,20 @@ function Footer({}: Props) {
               <li>ul. Paderewskiego 31</li>
               <li>42-300 Myszków</li>
               <li>
-                Telefon: <Link href="tel:+48793023649">+48 793 023 649</Link>
+                Telefon:{" "}
+                <Link
+                  href="tel:+48793023649"
+                  className="text-green-500 font-semibold dark:text-green-500 hover:underline hover:bg-green-500 hover:text-black rounded-lg px-1 transition-all duration-300"
+                >
+                  +48 793 023 649
+                </Link>
               </li>
               <li>
                 E-mail:{" "}
-                <Link href="mailto:meritumforest@gmail.com">
+                <Link
+                  href="mailto:meritumforest@gmail.com"
+                  className="text-green-500 font-semibold dark:text-green-500 hover:underline hover:bg-green-500 hover:text-black rounded-lg px-1 transition-all duration-300"
+                >
                   meritumforest@gmail.com
                 </Link>
               </li>

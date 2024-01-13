@@ -24,7 +24,10 @@ function Contact({}: Props) {
             <p className="dark:text-gray-200">
               Jeśli masz projekt, o którym chciałbyś porozmawiać,
               <br /> chętnie o nim przeczytamy{" "}
-              <Link href="mailto:meritumforest@gmail.com">
+              <Link
+                href="mailto:meritumforest@gmail.com"
+                className="text-green-500 font-semibold dark:text-green-500 hover:underline hover:bg-green-500 hover:text-black rounded-lg px-1 transition-all duration-300"
+              >
                 meritumforest@gmail.com
               </Link>
             </p>
@@ -32,7 +35,12 @@ function Contact({}: Props) {
               ZADZWOŃ DO NAS
             </h3>
             <p className="dark:text-gray-200">
-              <Link href="tel:+48793023649">793 023 649</Link>
+              <Link
+                href="tel:+48793023649"
+                className="text-green-500 font-semibold dark:text-green-500 hover:underline hover:bg-green-500 hover:text-black rounded-lg px-1 transition-all duration-300"
+              >
+                793 023 649
+              </Link>
             </p>
 
             <h3 className="uppercase font-Jost  font-semibold tracking-wider text-sm my-2 text-g">
