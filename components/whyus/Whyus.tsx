@@ -32,7 +32,7 @@ function Whyus({}: Props) {
               </div>
               <div className="flex w-[100%] md:w-1/3 flex-col gap-4">
                 <div className="font-barlow text-g text-6xl">
-                  <Counter value={8} />
+                  <Counter value={10} />
                 </div>
                 <div className="">Lat w branży</div>
               </div>
