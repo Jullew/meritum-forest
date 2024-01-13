@@ -24,8 +24,8 @@ function Contact({}: Props) {
             <p className="dark:text-gray-200">
               Jeśli masz projekt, o którym chciałbyś porozmawiać,
               <br /> chętnie o nim przeczytamy{" "}
-              <Link href="mailto: forest@meritumcenter.org.pl">
-                forest@meritumcenter.org.pl
+              <Link href="mailto:meritumforest@gmail.com">
+                meritumforest@gmail.com
               </Link>
             </p>
             <h3 className="uppercase font-Jost  font-semibold tracking-wider text-sm my-2 text-g">

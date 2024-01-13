@@ -19,14 +19,8 @@ function Footer({}: Props) {
               </li>
               <li>
                 E-mail:{" "}
-                <Link href="mailto:forest@meritumcenter.org.pl">
-                  forest@meritumcenter.org.pl
-                </Link>
-              </li>
-              <li>
-                E-mail:{" "}
-                <Link href="mailto:meritumcenter@gmail.com">
-                  meritumcenter@gmail.com
+                <Link href="mailto:meritumforest@gmail.com">
+                  meritumforest@gmail.com
                 </Link>
               </li>
             </ul>
